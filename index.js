@@ -123,12 +123,7 @@ async function scrapeStatesAndDistricts() {
     } catch (err) {
         console.log(err)
     }
-
-
-
-
 }
-
 
 scrapeStatesAndDistricts()
 
