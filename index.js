@@ -8,7 +8,6 @@ async function scrapeStatesAndDistricts() {
         const browser = await puppeteer.launch({
             headless: false,
             defaultViewport: false,
-            userDataDir: "./tmp",
         });
 
         const context = await browser.createIncognitoBrowserContext();
